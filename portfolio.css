@@ -128,6 +128,56 @@ width: 50%;
 }
 #p2{
     margin: 20px;
-    background-color: blue;
+    background-color: blue;   
+}
+
+.skills{
+    height: 40rem;
+    background-color: yellowgreen;
+}
+
+#mySkills{
+    position: relative;
+    left: 150px;
+    top: 150px;
+    width: 20rem;
+    font-size: xx-large;
+    background-color: blue;    
+}
+
+.contact_section{
+    height: 40rem;   
+    background-color: violet; 
+}
+
+#contact{
+    font-size: xx-large;
+    
+    background-color: brown;
    
+    position: relative;
+    top: 150px;
+    left: 300px;
+    width: 10rem;
+    
+}
+
+.page_bottom{
+    display: flex;
+    background-color: yellowgreen;
+    height: 3rem;
+    
+
+}
+#email{
+    background-color: aqua;
+
+    position: relative;
+    left: 10%;
+   
+}
+#linkedin{
+    background-color: yellow;
+    position: relative;
+    left: 50%;
 }
