@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    justify-content: center;
+    position: relative;
+    left: 55%;
+    top: 10px;
+     
+}
+.header{
+    background-color: transparent;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+.header_right{
+    position: relative;
+    left: 92%;
+    padding: 10px;
+}
+.front_page{
+    background-color: #EBE3D5;
+    height: 38rem;
+}
+
+
+.name{
+    font-size: xx-large;
+    position: relative;
+    justify-content: center;
+    left: 150px;
+    top: 200px; 
+}
+
+.fp_right{
+  
+   left: 90%;
+   top: 10px;   
+}
+
+.fullstack{
+    justify-content: center;
+    position: relative;
+    top: 15rem;
+    left: 15rem;
+}
+
+
+.about{
+    background-color: #B0A695;
+    height: 40rem;
+}
+
