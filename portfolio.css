@@ -44,12 +44,90 @@
     justify-content: center;
     position: relative;
     top: 15rem;
-    left: 15rem;
+    left: 150px;
 }
 
 
 .about{
     background-color: #B0A695;
     height: 40rem;
+    display: flex;
+
+}
+.about_header{
+    position: relative;
+   
+    height: 100%;
+    width: 35%;
+    
+    background-color: blueviolet;
+}
+.abt_class{
+    background-color: turquoise;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    width: 10rem;
+
 }
 
+.discription{
+      
+    position: relative;
+    top: 150px;
+    background-color: tomato;
+}
+.project_section{
+    position: relative;
+   
+    height: 40rem;
+    
+    display: flex;
+    
+    
+    
+    
+    
+   
+}
+.project_header{
+    width: 35%;
+    background-color: blueviolet;
+}
+
+
+.proj{
+    position: relative;
+    left: 150px;
+    top: 150px;
+    display: flex;  
+    width: 20rem;
+    background-color: blue;
+}
+.projects{
+    background-color: yellow;
+    display: flex;
+    width: 65%;
+
+}
+.pro_1{
+ background-color: yellowgreen; 
+width: 50%; 
+
+
+}
+.pro_2{
+    background-color: violet;
+    width: 50%;    
+    
+}
+#p1{
+    margin: 20px;
+    background-color: blue;
+   
+}
+#p2{
+    margin: 20px;
+    background-color: blue;
+   
+}
