@@ -1,9 +1,7 @@
 
 .image{
     justify-content: center;
-    position: relative;
-    left: 55%;
-   
+    position: relative;  
     top: 10px;     
     width: 20rem;
 }
@@ -58,7 +56,7 @@
     width: 10rem;
 
 }
-.discription{
+.description{
       
     position: relative;
     top: 150px;
