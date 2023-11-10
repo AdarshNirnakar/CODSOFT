@@ -1,28 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 .image{
     justify-content: center;
     position: relative;
     left: 55%;
-    top: 10px;
-     
+    top: 10px;     
 }
-.header{
-    background-color: transparent;
-    height: 40px;
-    position: fixed;
-    width: 100%;
-}
-.header_right{
-    position: relative;
-    left: 92%;
-    padding: 10px;
-}
+
 .front_page{
     background-color: #EBE3D5;
-    height: 38rem;
+    height: 36rem;
+   margin-bottom: 0.6cm;
+    
 }
 
 
@@ -49,9 +38,14 @@
 
 
 .about{
-    background-color: #B0A695;
-    height: 40rem;
+    background-color: #EBE3D5;
+    height: 36rem;
     display: flex;
+    margin-top: 0.4cm;
+    margin-bottom: 0.3cm;
+   
+   
+  
 
 }
 .about_header{
@@ -60,10 +54,10 @@
     height: 100%;
     width: 35%;
     
-    background-color: blueviolet;
+   
 }
 .abt_class{
-    background-color: turquoise;
+    
     position: relative;
     left: 150px;
     top: 150px;
@@ -75,65 +69,24 @@
       
     position: relative;
     top: 150px;
-    background-color: tomato;
+    
 }
 .project_section{
     position: relative;
-   
-    height: 40rem;
-    
-    display: flex;
-    
-    
-    
-    
-    
-   
-}
-.project_header{
-    width: 35%;
-    background-color: blueviolet;
-}
-
-
-.proj{
-    position: relative;
-    left: 150px;
-    top: 150px;
-    display: flex;  
-    width: 20rem;
-    background-color: blue;
-}
-.projects{
-    background-color: yellow;
-    display: flex;
-    width: 65%;
-
-}
-.pro_1{
- background-color: yellowgreen; 
-width: 50%; 
-
-
-}
-.pro_2{
-    background-color: violet;
-    width: 50%;    
-    
-}
-#p1{
-    margin: 20px;
-    background-color: blue;
-   
-}
-#p2{
-    margin: 20px;
-    background-color: blue;   
+    background-color: #533d17;
+    margin-top: 0.6cm;
+    height: 36rem;    
 }
 
 .skills{
-    height: 40rem;
-    background-color: yellowgreen;
+    height: 36rem;
+    background-color: #684e21;
+    margin-top: 0.6cm;
+    display: flex;
+    width: 100%;
+    
+    
+   
 }
 
 #mySkills{
@@ -142,42 +95,44 @@ width: 50%;
     top: 150px;
     width: 20rem;
     font-size: xx-large;
-    background-color: blue;    
+        
 }
 
 .contact_section{
-    height: 40rem;   
-    background-color: violet; 
+    height: 36rem;   
+    background-color: #EBE3D5;
+    margin-bottom: -0.3cm;
+    margin-top: 0.6cm;
 }
 
 #contact{
-    font-size: xx-large;
-    
-    background-color: brown;
-   
+    font-size: xx-large;  
+
     position: relative;
     top: 150px;
     left: 300px;
     width: 10rem;
+    ;
     
 }
 
 .page_bottom{
     display: flex;
-    background-color: yellowgreen;
+    background-color: #EBE3D5;
+    
     height: 3rem;
     
 
 }
 #email{
-    background-color: aqua;
+   
 
     position: relative;
     left: 10%;
    
 }
 #linkedin{
-    background-color: yellow;
+    
     position: relative;
     left: 50%;
 }
