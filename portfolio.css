@@ -1,5 +1,4 @@
 
-
 .image{
     justify-content: center;
     position: relative;
@@ -61,13 +60,14 @@
       
     position: relative;
     top: 150px;
+  
     
 }
 .project_section{
    
   
     margin-top: 0.6cm;
-    height: 35rem;   
+    height: 36rem;   
     
 }
 .projects{
@@ -110,52 +110,38 @@
         top:30px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-.contact_section{
-    height: 36rem;   
-    background-color: #EBE3D5;
-    margin-bottom: -0.3cm;
-    margin-top: 0.6cm;
-}
-
-#contact{
-    font-size: xx-large;  
-
-    position: relative;
-    top: 150px;
-    left: 300px;
-    width: 10rem;
- 
-    
-}
-
-.page_bottom{
+.skills{
+    height: 36rem;
     display: flex;
-    background-color: #41382a;
-    
-    height: 3rem;
-    
-
+    margin: 0.4cm;
+    margin-top: 0.1cm;
 }
-#email{
-   
-
-    position: relative;
-    left: 10%;
-   
+.skill_list{
+    background-color: tomato;
+    width: 65%;
 }
-#linkedin{
-    
+.text_skill{
     position: relative;
-    left: 50%;
+    left: 150px;
+    top: 150px;
+    width: 10rem;
+    background-color: aqua;
+}
+.skill_header{
+    position: relative;
+    background-color: yellowgreen;
+    height: 100%;
+    width: 35%;    
+}
+.contact_section{
+    background-color: #EBE3D5;
+    height: 36rem;
+    display: flex;
+    margin: 0.4cm;
+    margin-top: 0.6cm;
+    margin-bottom: 0.1cm;   
+}
+#contact{
+    position: relative;
+
 }
