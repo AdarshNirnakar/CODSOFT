@@ -77,26 +77,41 @@
     margin-top: 0.6cm;
     height: 36rem;    
 }
-
 .skills{
+    background-color: #EBE3D5;
     height: 36rem;
-    background-color: #684e21;
-    margin-top: 0.6cm;
+    margin-top: 0.4cm;
+    margin-bottom: 0.3cm;
     display: flex;
-    width: 100%;
     
+}
+.title_skill{
+    width: 35%;
+    background-color: aqua;
+}
+#text_mySkill{
+    position: relative;
+    top: 150px;
+    left: 150px;
+}
+.all_cards{
+    display: flex;
     
-   
+    width: 100%;     
+}
+#card_1{
+    background-color: brown;
+    width: 50%; 
+}
+#card_2{
+    background-color: rgb(172, 139, 139); 
+    width: 50%;
 }
 
-#mySkills{
-    position: relative;
-    left: 150px;
-    top: 150px;
-    width: 20rem;
-    font-size: xx-large;
-        
-}
+
+
+
+
 
 .contact_section{
     height: 36rem;   
