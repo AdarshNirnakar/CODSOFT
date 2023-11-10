@@ -3,12 +3,15 @@
     justify-content: center;
     position: relative;
     left: 55%;
+   
     top: 10px;     
+    width: 20rem;
 }
 .front_page{
     background-color: #EBE3D5;
-    height: 36rem;
+    height: 33rem;
    margin-bottom: 0.6cm;
+   
     
 }
 .name{
@@ -17,21 +20,20 @@
     justify-content: center;
     left: 150px;
     top: 200px; 
+    width: 20rem;
+    
 }
-.fp_right{
-  
-   left: 90%;
-   top: 10px;   
-}
+
 .fullstack{
     justify-content: center;
     position: relative;
     top: 15rem;
+    width: 30rem;
     left: 150px;
 }
 .about{
     background-color: #EBE3D5;
-    height: 36rem;
+    height: 33rem;
     display: flex;
     margin-top: 0.4cm;
     margin-bottom: 0.3cm;
@@ -67,7 +69,7 @@
    
   
     margin-top: 0.6cm;
-    height: 36rem;   
+    height: 33rem;   
     
 }
 .projects{
@@ -111,7 +113,7 @@
     }
 }
 .skills{
-    height: 36rem;
+    height: 33rem;
     display: flex;
     margin: 0.4cm;
     margin-top: 0.1cm;
@@ -135,16 +137,49 @@
 }
 .contact_section{
     background-color: #EBE3D5;
-    height: 36rem;
+    height: 33rem;
     display: flex;
     margin: 0.4cm;
     margin-top: 0.6cm;
-    margin-bottom: 0.1cm;   
+    
 }
 #contact{
-    position: relative;
-   top: 15.5rem;
-   left: 25rem;
    
+    position: relative;
+  
+   left: 25rem;
+   height: 5rem;
+   top: 40%;  
+}
+
+#email{
+    
+    height: 2rem;
+    position: relative;
+    top: 480px;
+    left: -300px;
+}
+#linkedin{
+    
+    height: 2rem;
+    position: relative;
+    top: 480px;
+    left: -50px;
+
+}
+#github{
+    
+    height: 2rem;
+    position: relative;
+    top: 480px;
+    left: 200px;
+
+}
+#backToTop{
+   
+    height: 2rem;
+    position: relative;
+    top: 480px;
+    left: 430px;
 
 }
