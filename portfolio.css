@@ -150,6 +150,7 @@
    left: 25rem;
    height: 5rem;
    top: 40%;  
+   
 }
 
 #email{
@@ -158,6 +159,7 @@
     position: relative;
     top: 480px;
     left: -300px;
+    
 }
 #linkedin{
     
@@ -165,14 +167,18 @@
     position: relative;
     top: 480px;
     left: -50px;
-
+    width: fit-content;
+    
 }
 #github{
     
     height: 2rem;
     position: relative;
     top: 480px;
+    width: fit-content;
     left: 200px;
+    
+    
 
 }
 #backToTop{
@@ -181,5 +187,7 @@
     position: relative;
     top: 480px;
     left: 430px;
+    width: 10rem;
+   
 
 }
