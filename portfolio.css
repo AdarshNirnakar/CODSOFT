@@ -9,8 +9,6 @@
     background-color: #EBE3D5;
     height: 33rem;
    margin-bottom: 0.6cm;
-   
-    
 }
 .name{
     font-size: xx-large;
@@ -19,7 +17,6 @@
     left: 150px;
     top: 200px; 
     width: 20rem;
-    
 }
 
 .fullstack{
@@ -35,40 +32,25 @@
     display: flex;
     margin-top: 0.4cm;
     margin-bottom: 0.3cm;
-   
-   
-  
-
 }
 .about_header{
     position: relative;
-   
     height: 100%;
     width: 35%;
-    
-   
 }
 .abt_class{
-    
     position: relative;
     left: 150px;
     top: 150px;
     width: 10rem;
-
 }
 .description{
-      
     position: relative;
     top: 150px;
-  
-    
 }
 .project_section{
-   
-  
     margin-top: 0.6cm;
-    height: 33rem;   
-    
+    height: 33rem;  
 }
 .projects{
     height: 100%;    
@@ -76,7 +58,6 @@
     background-color: aqua;
 }
 .no_of_projects{
-    
     position: relative;
     width: 35%;
     background-color: yellowgreen;
@@ -89,8 +70,6 @@
 .all_cards{
     display: flex;
     width: 65%;
-
-   
 }
 #card_1{
     background-color: violet;
@@ -117,8 +96,9 @@
     margin-top: 0.1cm;
 }
 .skill_list{
-    background-color: tomato;
+    
     width: 65%;
+    background-color: tomato;
 }
 .text_skill{
     position: relative;
@@ -134,58 +114,43 @@
     width: 35%;    
 }
 .contact_section{
-    background-color: #EBE3D5;
-    height: 33rem;
-    display: flex;
+     height: 33rem;
     margin: 0.4cm;
     margin-top: 0.6cm;
-    
+    background-color: #EBE3D5;
 }
 #contact{
-   
+    text-align: center;
     position: relative;
-  
-   left: 25rem;
-   height: 5rem;
-   top: 40%;  
-   
+    top: 45%;
+    height: 5rem;
+}
+.bottom_bar{
+    display: flex;
+    height: 40px;
+    position: relative;
+    top: 75%;
+    align-items: center;
+    width: 100%;
 }
 
 #email{
-    
     height: 2rem;
-    position: relative;
-    top: 480px;
-    left: -300px;
-    
+    margin-left: 10%;
 }
+
 #linkedin{
-    
     height: 2rem;
-    position: relative;
-    top: 480px;
-    left: -50px;
     width: fit-content;
-    
+    margin-left: 20%;
 }
 #github{
-    
     height: 2rem;
-    position: relative;
-    top: 480px;
     width: fit-content;
-    left: 200px;
-    
-    
-
+    margin-left: 20%;
 }
 #backToTop{
-   
-    height: 2rem;
-    position: relative;
-    top: 480px;
-    left: 430px;
     width: 10rem;
-   
-
+    margin-left: 20%;
 }
+
