@@ -1,21 +1,10 @@
 
 
-*{
-    color: white;
-
-.image{
-    justify-content: center;
-    position: relative;  
-    top: 10px;     
-    width: 20rem;
-}
 .xyz{
-    background-color: rgb(34, 16, 34);
-    padding: 0%;
-    margin: 0%;
-    position: fixed;
-    top: -15px;
+    bac;
 }
+
+
 .margin{
     
     margin-left: -1.5%;
@@ -94,10 +83,7 @@
     top: 150px;
     width: 10rem;
 }
-.description{
-    position: relative;
-    top: 150px;
-}
+
 .project_section{
   
     height: 33rem;  
@@ -140,7 +126,7 @@
     }
 }
 .skills{
-    height: 33rem;
+    height: 25rem;
     display: flex;
    
 }
@@ -169,7 +155,7 @@
 #contact{
     text-align: center;
     position: relative;
-    top: 45%;
+    top: 40%;
     height: 5rem;
 }
 .bottom_bar{
