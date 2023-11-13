@@ -1,0 +1,98 @@
+
+.xyz{
+    background-color: rgb(200, 116, 200);
+    position: fixed;
+    top: -25px;
+    padding-bottom: -1px;
+    
+}
+.front_page{
+    position: absolute;
+    background-color: aqua;
+    margin-top: -50px;
+    width: 100%;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+.name{
+    font-size: 52px;
+    position: absolute;
+    left: 70px;
+    top: 100px;
+}
+.fullStack{
+    font-size: 25px;
+    position: absolute;
+    left:70px;
+    top: 170px;
+}
+.image{
+    padding: 40px;
+    position: absolute;
+    background-color: yellowgreen;
+    width: fit-content;
+    left: 60%;
+    top: 70px;
+    border-radius: 30%;
+}
+.about_section{
+ position: absolute;
+ top:310px;
+
+}
+.about{
+    background-color: yellowgreen;
+    position: absolute;
+    font-size: 42px;
+    left: 40px;
+    top: 150px;
+}
+.description{
+    width: 40rem;
+    background-color: yellow;
+    position: absolute;
+    left: 250px;
+    font-size: 15px;
+    top: 150px;
+}
+.project_section{
+    position: absolute;
+    top: 790px;
+}
+.project{
+    background-color: blueviolet;
+    position: absolute;
+    font-size: 42px;
+    left: 40px;
+    top: 50px;
+    
+}
+
+.pro_num{
+    background-color: aqua;
+    position: absolute;
+    font-size: 70px;
+    left: 80px;
+    top: 240px;
+
+}
+.pro_list{
+    background-color: brown;
+    position: absolute;
+    left: 250px;
+    display: flex;
+    width: 600px;
+}
+
+.skill_section{
+    position: absolute;
+    top: 1200px;
+    background-color: violet;
+}
+.skill{
+    background-color: blueviolet;
+    position: absolute;
+    font-size: 42px;
+    left: 40px;
+    top: 150px;
+}
