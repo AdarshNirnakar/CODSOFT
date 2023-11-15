@@ -4,15 +4,15 @@
     background-color: #E1E1E1;
    
 }
-
-
-.front_page{
-    position: absolute;
-    margin-top: -50px;
-    width: 100%;
-    margin-left: -16px;
-    margin-right: -16px;
+.navigation_bar{
+    position: fixed;
 }
+.navbar xyz bg-darkbg-body-tertiary px-2{
+    position: fixed;
+}
+
+
+
 .name{
     font-size: 88px;
     position: absolute;
@@ -92,26 +92,66 @@
     position: absolute;
     justify-content: space-around;
     left: 500px;
-    width: 850px;
+    width: 820px;
     display: flex;
     top: 200px;
-}
+    
+    
 
+    
+}
+.front{
+    border: 1px solid #212529;
+    border-radius: 8px;
+    text-align: center;
+}
 .front_text{
     width: 120px;
     font-size: larger;
+    border-bottom: 1px solid #212529;
+    border-radius: 5px;
+}
+.backend{
+    border: 1px solid #212529;
+    border-radius: 8px;
+    text-align: center;
 }
 .backend_text{
     width: 120px;
     font-size: larger;
+    border-bottom: 1px solid #212529;
+    border-radius: 5px;
+}
+.uiux{
+    border: 1px solid #212529;
+    border-radius: 8px;
+    text-align: center;
+    
+
 }
 .uiux_text{
     width: 120px;
     font-size: larger;
+    border-bottom: 1px solid #212529;
+    border-radius: 5px;
 }
-.dsa_text{
+#figmaImg{
+    border-radius: 9px;
+    height: 40px;
+    
+}
+.database{
+    border: 1px solid #212529;
+    border-radius: 8px;
+    text-align: center;
+    height: 120px;
+}
+.database_text{
     width: 120px;
     font-size: larger;
+    border-bottom: 1px solid #212529;
+    border-radius: 5px;
+    
 }
 .contact_section{
     position: absolute;
@@ -130,6 +170,7 @@
     top: 140px;
     left: 65%;
     width: 70%;
+    
 }
 .resume a{
     text-decoration: none;
@@ -139,6 +180,7 @@
     position: absolute;
     top: 2500px;
     width: 100%; 
+    
 }
 ul{
     list-style: none;
