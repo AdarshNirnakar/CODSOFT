@@ -4,11 +4,8 @@
     background-color: #E1E1E1;
    
 }
-.navigation_bar{
-    position: fixed;
-}
-.navbar xyz bg-darkbg-body-tertiary px-2{
-    position: fixed;
+.xyz{
+    color: #E1E1E1;
 }
 
 
@@ -44,10 +41,10 @@
     top: 150px;
 }
 .description{
-    width: 50rem;
+    width: 60rem;
     position: absolute;
     left: 500px;
-    font-size: 20px;
+    font-size: 22px;
     top: 150px;
 }
 .project_section{
@@ -70,7 +67,7 @@
 }
 .pro_list{
     position: absolute;
-    left: 550px;
+    left: 580px;
     display: flex;
     width: 750px;
     top: 60px;
@@ -91,11 +88,12 @@
 .skill_list{
     position: absolute;
     justify-content: space-around;
-    left: 500px;
+    left: 570px;
     width: 820px;
     display: flex;
     top: 200px;
-    
+    font-size: 22px;
+    color: black;
     
 
     
@@ -160,17 +158,17 @@
 .contact_text{
     position:relative;
     top:150px;
-    left: 50%;
-    align: center;
+    left: 60%;
+    text-align: center;
     font-size: 75px;
-    width: 50rem;
+    width: fit-content;
 }
 .resume{ 
     position: relative;
     top: 140px;
-    left: 65%;
-    width: 70%;
-    
+    left: 75%;
+    width: fit-content;
+    text-align: center;
 }
 .resume a{
     text-decoration: none;
@@ -180,7 +178,6 @@
     position: absolute;
     top: 2500px;
     width: 100%; 
-    
 }
 ul{
     list-style: none;
@@ -193,5 +190,22 @@ ul{
     font-size: large;
 }
 #navbar-example2 ul li a{
-    color: #212529;
+    color: #000000;
+}
+.shade1{
+    width: 100%;
+    height: 1500px;
+    position: absolute;  
+    top: 50px;  
+    z-index: -5;
+    background-image:linear-gradient(360deg, transparent,rgb(74, 122, 203));
+}
+
+.shade2{
+    width: 100%;
+    height: 1500px;
+    position: absolute; 
+    top: 998px;   
+    z-index: -5;
+    background-image:linear-gradient(180deg, transparent,rgba(100, 75, 155));
 }
