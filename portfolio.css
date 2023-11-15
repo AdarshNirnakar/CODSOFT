@@ -1,15 +1,13 @@
 
-.xyz{
-  
-    position: fixed;
-    top: -5px;
-    padding-bottom: -1px;
-    
+
+.body_color{
+    background-color: #E1E1E1;
+   
 }
+
 
 .front_page{
     position: absolute;
-    
     margin-top: -50px;
     width: 100%;
     margin-left: -16px;
@@ -28,10 +26,7 @@
     top: 300px;
 }
 .image{
-    
     position: absolute;
-    
-  
     width: fit-content;
     left: 75%;
     top:200px;
@@ -41,10 +36,8 @@
  position: absolute;
  top:450px;
  background-color: rgb(105, 69, 25);
-
 }
 .about{
-   
     position: absolute;
     font-size: 42px;
     left: 80px;
@@ -52,8 +45,6 @@
 }
 .description{
     width: 50rem;
-   
-   
     position: absolute;
     left: 500px;
     font-size: 20px;
@@ -64,26 +55,20 @@
     top: 1000px;
 }
 .project{
-    
     position: absolute;
     font-size: 42px;
     left: 80px;
     top: 150px;
     width: 400px;
-   
-    
 }
 
 .pro_num{
-  
     position: absolute;
     font-size: 70px;
     left: 200px;
     top: 210px;
-
 }
 .pro_list{
-   
     position: absolute;
     left: 550px;
     display: flex;
@@ -95,44 +80,36 @@
     position: absolute;
     top: 1550px;
     background-color: aqua;
-    
     width: 100%;
 }
 .skill{
-    
     position: absolute;
     font-size: 42px;
     left: 80px;
     top: 200px;
-    
 }
 .skill_list{
-   
     position: absolute;
     justify-content: space-around;
     left: 500px;
-    width: 900px;
+    width: 850px;
     display: flex;
     top: 200px;
 }
 
 .front_text{
-   
     width: 120px;
     font-size: larger;
 }
 .backend_text{
-   
     width: 120px;
     font-size: larger;
 }
 .uiux_text{
-    
     width: 120px;
     font-size: larger;
 }
 .dsa_text{
-  
     width: 120px;
     font-size: larger;
 }
@@ -140,7 +117,6 @@
     position: absolute;
     top: 1970px;
 }
-
 .contact_text{
     position:relative;
     top:150px;
@@ -148,24 +124,32 @@
     align: center;
     font-size: 75px;
     width: 50rem;
-   
 }
-.resume{
+.resume{ 
     position: relative;
     top: 140px;
     left: 65%;
-   
-    width: 100%;
+    width: 70%;
+}
+.resume a{
+    text-decoration: none;
+    color: #212529;
 }
 .bottom_bar{
     position: absolute;
     top: 2500px;
-    width: 100%;
-   
-    
+    width: 100%; 
 }
 ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+.bottom_bar ul li a{
+    text-decoration: none;
+    color: #212529;
+    font-size: large;
+}
+#navbar-example2 ul li a{
+    color: #212529;
 }
