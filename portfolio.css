@@ -14,38 +14,38 @@
     font-size: 88px;
     position: absolute;
     left: 15%;
-    top: 200px;
+    top: 250px;
 }
 .fullStack{
     font-size: 45px;
     position: absolute;
     left:15%;
-    top: 300px;
+    top: 350px;
 }
 .image{
     position: absolute;
     width: fit-content;
     left: 75%;
-    top:200px;
+    top:250px;
     border-radius: 50%;
 }
 .about_section{
  position: absolute;
- top:450px;
- background-color: rgb(105, 69, 25);
+ top:460px;
+ 
 }
 .about{
-    position: absolute;
+    position: relative;
     font-size: 42px;
-    left: 80px;
-    top: 150px;
+    left: 9.5%;
+    top: 225px;
 }
 .description{
     width: 60rem;
-    position: absolute;
-    left: 500px;
+    position: relative;
+    left: 40%;
     font-size: 22px;
-    top: 150px;
+    top: 175px;
 }
 .project_section{
     position: absolute;
@@ -88,7 +88,7 @@
 .skill_list{
     position: absolute;
     justify-content: space-around;
-    left: 570px;
+    left: 35%;
     width: 820px;
     display: flex;
     top: 200px;
@@ -146,20 +146,22 @@
 }
 .contact_section{
     position: absolute;
-    top: 1970px;
+    top: 2070px;
+   
 }
 .contact_text{
     position:relative;
     top:150px;
-    left: 60%;
+    left: 30%;   
     text-align: center;
-    font-size: 75px;
-    width: fit-content;
+    font-size: 45px;
+    width: 60rem;
 }
 .resume{ 
     position: relative;
-    top: 140px;
-    left: 75%;
+    top: 160px;
+    left: 65%;
+    font-size: 25px;    
     width: fit-content;
     text-align: center;
 }
@@ -169,13 +171,15 @@
 }
 .bottom_bar{
     position: absolute;
-    top: 2500px;
+    top: 2700px;
     width: 100%; 
+   
 }
 ul{
     list-style: none;
     display: flex;
     justify-content: space-around;
+    
 }
 .bottom_bar ul li a{
     text-decoration: none;
@@ -198,7 +202,7 @@ ul{
     width: 100%;
     height: 1500px;
     position: absolute; 
-    top: 998px;   
+    top: 1190px;   
     z-index: -5;
     background-image:linear-gradient(180deg, transparent,rgba(100, 75, 155));
 }
